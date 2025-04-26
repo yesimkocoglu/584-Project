@@ -32,7 +32,21 @@ Data is stored under `data/` (not uploaded to GitHub due to size restrictions).
 
 ## Structure
 
-584-Project/ ├── README.md ├── requirements.txt ├── data/ │ ├── raw/ # Raw downloaded data │ └── processed/ # Preprocessed datasets ├── notebooks/ │ ├── 01_EDA.ipynb # Exploratory data analysis │ └── 02_Modeling.ipynb # Model training and evaluation ├── src/ │ ├── data_loading.py # Scripts for loading and preprocessing │ ├── modeling.py # Model definition and training scripts │ └── utils.py # Utility functions ├── reports/ │ └── phase1_proposal.pdf # Submitted reports └── figures/ # Visualizations and figures
+## Project Structure
+
+```text
+584-Project/
+├── README.md
+├── requirements.txt
+├── data/
+│   ├── raw/           # Raw downloaded data
+│   └── processed/     # Preprocessed datasets
+├── notebooks/
+│   ├── 01_EDA.ipynb   # Exploratory data analysis
+│   └── 02_Modeling.ipynb # Model training and evaluation
+├── reports/
+│   └── phase1_proposal.pdf # Submitted reports
+└── figures/            # Visualizations and figures
 
 
 
